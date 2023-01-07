@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#home">home
+            </a>
+            </li>
+            <li class="link active"><a href="#about">About Me
+            </a>
+            </li>
+            <li class="link active"><a href="#Experience">Experience
+            </a>
+            </li>
+            <li class="link active"><a href="#link">contacts
+            </a>
+            </li>
+        </ul>
+    </nav>
+    <!-- home section -->
+    <a id="home"></a>
+    <section class="home-section active">
+        <h1 class="hero-heading " style="margin-left: -00px; font-family: sans-serif ;">Natalie Mai</h1>
+        <h4 style="font-size: large; position: absolute; margin-top: 200px; margin-right: 800px; font-family: sans-serif " class="hero-heading">Hi! I am currently a second year student studying Consumer Behavior and Economics, with a certificate in Entrepreneurship and Graphic Design at UW Madison. I am interested in retail, marketing, and data analytics.</h4>
+        <img src="https://d3dhrbkwcpstav.cloudfront.net/wp-content/uploads/sites/174/2022/06/IMG_8471_Original-e1656008892611-400x400.jpg" class="home-img" alt="">
+    </section>
+
+
+    <!-- about section -->
+    <a id="about"></a>
+    <section class="about-section active" style="margin-bottom: -400px;">
+        <div class="about">
+            <div class="about-img-container"></div>
+            <h1 class="project-heading" style="position: absolute; margin-top:-150px; margin-bottom: 200px; margin-left: 400px; font-family: sans-serif ">About me</h1>
+            <p style="font-size: larger; color: black; font-family: sans-serif ">I am currently a student at The University of Wisconsin at Madison pursuing two degress in Consumer Behavior and in Economics, both as a bachelor of Science with an expected graduation in the summer of 2025. Since enrolling in college, I gained interest in Data Analytics, Retail Management, Marketing Analysis</p>
+            <div class="project-card" style="margin-top: -300px; margin-bottom: -200px;">
+                <img src="data:image/png;base64,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" class="project-img" alt="" height="300px">
+                <div class="project-content">
+                    <h1 class="project-title" style="color: #000;">Resume</h1>
+                    <h3 class="project-info" style="color: #000;">Click the button below to view my resume.</h3>
+                    <div class="project-btn-grp">
+                        <button class="project-btn github"><a href="" style="color: #ffffff;"><a href="https://docs.google.com/document/d/13GfwKwVbpmAc19dpILsvJoc6g29DPHdpnge2AkLVrGQ/edit#heading=h.aagfqklm9zwt" style="color: #ffffff;">See Resume</a>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section style="position: relative; top: -400px">
+    <h1 class="project-heading" style="position: absolute; margin-left: 500px;">education</h1>
+    <section>
+        <ul class="about-info" style="position: absolute;">
+            <h3 style="margin-left: 100px; font-size: smaller">University of Wisconsin Madison</h3>
+            <ul style="margin-left: 120px; font-size: smaller">
+                <li>B.S Consumer Behavior</li>
+                <li>B.S Economics</li>
+            </ul>
+            <ul>
+                <h3 style="margin-left: 100px; margin-top: 100px; font-size: smaller">Previous Education</h3>
+                <li style="margin-left: 120px; font-size: smaller;">Holderness High School(2018-2021)</li>
+                <li style="margin-left: 120px; font-size: smaller;">EF Academy in Thornwood, New York(2017-2018)</li>
+                <li style="margin-left: 120px; font-size: smaller;">Tran Vai Mghia Middle-High School for the Gifted(2014-2017)</li>
+            </ul>
+        </ul>
+        <section style="margin-top: 200px;">
+            <ul class="about-info" style="position: absolute;">
+                <h3 style="margin-left: 680px; font-size: smaller;">Soft Skills</h3>
+                <ul style="margin-left: 700px; font-size: smaller">
+                    <li>Customer Service</li>
+                    <li>Excel proficiency</li>
+                    <li>Time-Management</li>
+                    <li>Creativity</li>
+                    <li>Storytelling</li>
+                    <li>Analysis</li>
+                    <li>Mulitasking</li>
+                    <li>upselling</li>
+                </ul>
+                <section style="margin-top: -365px; font-size: smaller">
+                    <ul class="about-info" style="position: absolute;">
+                        <h3 style="margin-left: 1100px; font-size: smaller">Relevant Coursework</h3>
+                        <ul style="margin-left: 1120px; font-size: smaller">
+                            <li style="padding: 0%;">Marketing Management</li>
+                            <li>Consumer Finance</li>
+                            <li>Introduction to Retail</li>
+                            <li>Intermediate Economics</li>
+                        </ul>
+
+                    </ul>
+                </section>
+                <section style="margin-top: 300px;">
+                    <a id="Experience"></a>
+                    <div class="project-heading">
+                        <h1 class="project-heading" style="position:relative; left: 210px;margin-top: 450px; margin-bottom: 100px;">Experience</h1>
+                        <img src="data:image/jpeg;base64,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" style="height:450px; width:400px; position:relative; left:-270px;"></img>
+                    </div>
+                    <div style="position:relative; right: -550px; top:-500px">
+                        <h3>Retail Sales Associate at Rethreads Madison (Internship):</h3>
+                        <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                            <li>Maintain a clean, organized inventory and curated displays of rotating seasonal clothing and <br>accessories</li>
+                        </ul>
+                        <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                            <li>Anticipate customer needs, providing them with excellent customer service. Happily guide 20+ <br> customers on average through the process of finding their ideal sizes and styles</li>
+                        </ul>
+                        <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                            <li> Meticulously operate POS system transactions including credit, cash, exchanges, returns and<br> refunds to ensure seamless and accurate cash flow. Support the opening and closing 2 days a<br> week demonstrating leadership and punctuality</li>
+                        </ul>
+                        <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                            <li>Proactively stay informed about the store's largest sales offerings and create content used for<br> digital marketing. Plan events including fashion shows, photoshoots, and special sales meant to<br> raise brand awareness and engagement</li>
+                        </ul>
+                        <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                            <li>Fashion show project: <a href="https://drive.google.com/file/d/1Y8I-h1rAjA-q39Qv_3nNZ-wfQ3MgZZ6L/view?usp=share_link" target="_blank">OneAll Fashion Show</a></li>
+                        </ul>
+                    </div>
+                    <!--BREAK-->
+                    <div style="position: relative; top: -300px;">
+                        <img src="https://th.bing.com/th/id/OIP.wtzrWsN-POErIg-Y0D26nQHaE8?pid=ImgDet&rs=1" style="height:450px; width:400px; position:relative;"></img>
+                        <div style="position:relative; right: -550px; top:-475px">
+                            <h3>
+                                Social Media Marketing Student Intern at UW School of Education (Internship):
+                            </h3>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Collaborate with Marketing Specialists to create and share timely social and web content in order<br> to support School events, news, projects, and campaigns.
+                                </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Contribute to the content calendar by making posts and pulling media from different departments.<br> Pitch ideas for engaging and on-brand marketing content.
+                                </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Monitor social media accounts and share ideas to engage with key audiences.
+                                </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Amplify relevant content from School departments and units by tripling insight on instagram and <br> doubling insight on facebook.
+                                </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Assist in gathering analytics reports to track performance and inform strategy.
+                                    </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Other marketing tasks as assigned such as drafting marketing emails, crafting ad copy, developing <br> marketing web content, and creating recruitment materials.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--BREAK-->
+                    <div style="position: relative; top: -525px;">
+                        <img src="https://maisonvn.com.vn/contents/uploads/2020/03/AI_ORIGINAL.png" style="height:450px; width:400px; position:relative;"></img>
+                        <div style="position:relative; right: -550px; top:-475px">
+                            <h3>Sales and Marketing Intern at MAISON VN Co., Ltd (Internship):</h3>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Collaborate with Marketing Specialists to create and share timely social and web content in order<br> to support School events, news, projects, and campaigns.
+                                </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Contribute to the content calendar by making posts and pulling media from different departments.<br> Pitch ideas for engaging and on-brand marketing content.
+                                </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Monitor social media accounts and share ideas to engage with key audiences.
+                                </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Amplify relevant content from School departments and units by tripling insight on instagram and <br> doubling insight on facebook.
+                                </li>
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Assist in gathering analytics reports to track performance and inform strategy.
+                                    </li>
+                                
+                            </ul>
+                            <ul style="position: relative; right:-30px; margin-right: 100px;;">
+                                <li>
+                                    Other marketing tasks as assigned such as drafting marketing emails, crafting ad copy, developing <br> marketing web content, and creating recruitment materials.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+        </section>
+        <style>
+            #my{
+                zoom: 80%;
+            }
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                width: 100%;
+                max-width: 1400px;
+                display: block;
+                margin: auto;
+                min-height: 100vh;
+                background-color: whitesmoke;
+                font-family: sans-serif;
+            }
+
+            .navbar {
+                width: 100%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 9;
+                background: #1a1a1a;
+            }
+
+            .link-group {
+                list-style: none;
+                display: flex;
+            }
+
+            .link a {
+                color: #fff;
+                opacity: 0.5;
+                text-decoration: none;
+                text-transform: capitalize;
+                padding: 10px 30px;
+                margin: 0 20px;
+                line-height: 80px;
+                transition: .5s;
+                font-size: 20px;
+            }
+
+            .link a:hover,
+            .link.active a {
+                opacity: 1;
+            }
+
+            .home-section {
+                width: 100%;
+                height: 100vh;
+                padding: 0 150px;
+                display: flex;
+                align-items: center;
+                position: fixed;
+                top: 0;
+
+            }
+
+            .hero-heading {
+                color: black;
+                font-size: 40px;
+                font-weight: 300;
+            }
+
+            .home-img {
+                position: absolute;
+                top: 0;
+                right: 0;
+                height: 100vh;
+                width: 50%;
+                object-fit: cover;
+                opacity: 0.5;
+            }
+
+            .home-section.active,
+            .project-section.active,
+            .about-section.active,
+            .contact-section.active {
+                position: relative;
+                opacity: 1;
+                z-index: 8;
+            }
+
+            .project-section {
+                width: 100%;
+                min-height: 100vh;
+                padding: 150px 100px 100px;
+                position: fixed;
+                top: 0;
+                transition: 1s;
+                opacity: 0;
+            }
+
+            .project-heading {
+                font-size: 90px;
+                background: #252525;
+                text-transform: capitalize;
+                text-align: center;
+                margin-bottom: 40px;
+                color: #000000;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-stroke: 5px black;
+            }
+
+            .project-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 100px;
+            }
+
+            .project-card {
+                height: 400px;
+                position: relative;
+            }
+
+            .project-img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                object-fit: cover;
+                transition: .5s;
+            }
+
+            .project-content {
+                position: relative;
+                padding: 40px;
+                color: #fff;
+                transition: .5s;
+                opacity: 0;
+            }
+
+            .project-title {
+                font-size: 50px;
+                text-transform: capitalize;
+                text-align: center;
+                font-weight: 300;
+            }
+
+            .project-info {
+                margin: 40px;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+            }
+
+            .project-btn-grp {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 20px;
+            }
+
+            .project-btn {
+                height: 40px;
+                text-transform: capitalize;
+                font-size: 18px;
+                border: none;
+                background: #000;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            .project-btn.live {
+                background: none;
+                border: 2px solid #fff;
+            }
+
+            .project-card:hover .project-img {
+                filter: blur(10px);
+            }
+
+            .project-card:hover .project-content {
+                opacity: 1;
+            }
+
+            .about-section {
+                width: 100%;
+                min-height: 100vh;
+                padding: 200px 100px 0;
+                position: fixed;
+                top: 0;
+                opacity: 0;
+                transition: 1s;
+            }
+
+            .about {
+                width: 100%;
+                display: grid;
+                grid-template-columns: 30% 65%;
+                grid-gap: 40px;
+            }
+
+            .about-info {
+                color: rgb(0, 0, 0);
+                opacity: 1;
+                font-size: 20px;
+                line-height: 40px;
+            }
+
+            .skill-section {
+                position: relative;
+                margin: 100px 0;
+            }
+
+            .heading {
+        
+                text-align: center;
+        
+                font-size: 60px;
+        
+                color: rgb(0, 0, 0);
+        
+                text-transform: capitalize;
+        
+                font-weight: 300;
+        
+                margin-bottom: 100px;
+            }
+
+            .skills-container {
+         
+                width: 95%;
+         
+                margin: auto;
+         
+                display: grid;
+         
+                grid-template-columns: repeat(3, 1fr);
+         
+                grid-gap: 100px;
+         
+                color: #fff;
+            }
+
+         
+            .skill-card {
+         
+                position: relative;
+         
+            }
+
+            .skill-img {
+    
+                display: block;
+    
+                margin: auto;
+    
+                height: 200px;
+            }
+
+            .skill-name {
+    
+                font-size: 30px;
+    
+                font-weight: 300;
+    
+                text-align: center;
+    
+                text-transform: capitalize;
+    
+                margin: 30px 0 20px;
+            }
+
+            .skill-info {
+    
+                text-align: center;
+    
+                opacity: 0.5;
+    
+                font-size: 18px;
+    
+                line-height: 30px;
+            }
+
+            .skill-level {
+    
+                position: absolute;
+    
+                top: 80px;
+    
+                right: 0;
+    
+                width: 150px;
+    
+                height: 150px;
+    
+                display: flex;
+    
+                justify-content: center;
+    
+                align-items: center;
+    
+                font-size: 22px;
+    
+                border-radius: 50%;
+    
+                border: 10px solid;
+    
+            }
+
+            .skill-card:nth-child(1) .skill-level {
+                background: #ff4f4f28;
+    
+                border-color: #ff4f4f;
+    
+                color: #ff4f4f;
+            }
+
+            .skill-card:nth-child(2) .skill-level {
+    
+                background: #4fa0ff28;
+    
+                border-color: #4fa0ff;
+    
+                color: #4fa0ff;
+            }
+
+            .skill-card:nth-child(3) .skill-level {
+     
+                background: #ffed4f28;
+     
+                border-color: #ffed4f;
+     
+                color: #ffed4f;
+            }
+
+            .skill-card:nth-child(4) .skill-level {
+                background: #52ff4f28;
+                border-color: #52ff4f;
+                color: #52ff4f;
+            }
+
+            .skill-card:nth-child(5) .skill-level {
+                background: #4fdfff28;
+                border-color: #f9049f;
+                color: #f9049f;
+            }
+
+            .skill-card:nth-child(6) .skill-level {
+                background: #4fdfff28;
+                border-color: #9500ff;
+                color: #9500ff;
+            }
+.skill-img{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+ 
+.skill-name{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px 0 20px;
+}
+ 
+.skill-info{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 18px;
+    line-height: 30px;
+}
+ 
+.skill-level{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 50%;
+    border: 10px solid;
+}
+ 
+.skill-card:nth-child(1) .skill-level{
+    background: #ff4f4f28;
+    border-color: #ff4f4f;
+    color: #ff4f4f;
+}
+ 
+.skill-card:nth-child(2) .skill-level{
+    background: #4fa0ff28;
+    border-color: #4fa0ff;
+    color: #4fa0ff;
+}
+ 
+.skill-card:nth-child(3) .skill-level{
+    background: #ffed4f28;
+    border-color: #ffed4f;
+    color: #ffed4f;
+}
+ 
+.skill-card:nth-child(4) .skill-level{
+    background: #52ff4f28;
+    border-color: #52ff4f;
+    color: #52ff4f;
+}
+ 
+.skill-card:nth-child(5) .skill-level{
+    background: #4fdfff28;
+    border-color: #f9049f;
+    color: #f9049f;
+}
+.skill-card:nth-child(6) .skill-level{
+    background: #4fdfff28;
+    border-color: #9500ff;
+    color: #9500ff;
+}
+ 
+    </style>
+</nav>
+</head>
